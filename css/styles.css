@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  font-size: 16px;
+  font-family: Montserrat;
+  color: #333;
+}
+
+header {
+  background: rgb(227, 255, 195);
+  color: #333;
+  text-align: center;
+  margin-top: 0;
+}
+
+
+
+
+header h1,
+header p{
+  margin: 0;
+}
+
+.btn{
+  text-decoration: none;
+  background: #333;
+  color: rgb(159, 250, 159);
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 16px auto 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.btn :hover{
+  opacity: 0.9;
+}
+
+.picts img {
+  width: 100%;
+}
+
+.picts > h2 {
+  text-align: center;
+  padding: 64px 0;
+  font-weight: normal;
+}
+
+.picts .container {
+  margin: 0 32px;
+}
+
+.picts p {
+  line-height: 1.8;
+  word-wrap: break-word;
+}
+
+.picts section {
+  padding-bottom: 64px;
+}
+
+@media (min-width: 900px) {
+  header .container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  header .info1 ,.info2 ,.info3 ,.info4 {
+    margin: 24px;
+    align-self: center;
+  }
+
+  
+
+  .picts .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .picts section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .picts section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .picts .phot {
+    width: 50%;
+  }
+
+  .picts .info {
+    width: calc(50% - 32px);
+  }
+}
+
+
+
+
+
+
